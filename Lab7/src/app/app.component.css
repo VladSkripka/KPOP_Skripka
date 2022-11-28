@@ -1,0 +1,27 @@
+.errors{
+    color: red;
+    margin-bottom: 2px;
+}
+h1{
+    color: rgba(65, 65, 247, 0.932);
+    margin-top: 5px;
+    font-family:"Arial";
+    font-weight: lighter;
+}
+.content{
+   height: 500px;
+}
+input{
+    margin-left: auto;
+    margin-right: auto;
+}
+button{
+    color: blue;
+    height: 30px;
+    background-color: aliceblue;
+    border-color: white;
+    border-radius: 2px;
+}
+.snd{
+    text-align: center;
+}
