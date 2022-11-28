@@ -1,0 +1,32 @@
+.center {
+    width: 70%;
+    margin-top:10px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header {
+    text-align: center;
+}
+.favtable {
+    margin-top:10px;
+    overflow:hidden;
+    height:20%;
+    overflow-y:scroll;
+    margin-bottom:10px;
+}
+.table {
+    overflow:hidden;
+    height:500px;
+    overflow-y:scroll;
+}
+table, td, th {
+    text-align: center;
+}
+div{
+    display: flex;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+}
