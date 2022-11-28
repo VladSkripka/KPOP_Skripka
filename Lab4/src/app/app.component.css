@@ -1,0 +1,86 @@
+input{
+    border: 2px solid rgb(163, 163, 163);
+    color: white;
+    background-color:rgb(32, 32, 32);
+    border-radius: 4px; 
+    border-radius:5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10px;
+}
+input:hover{
+    background-color: white;
+    color: rgb(32, 32, 32);
+}
+button{
+    border: 2px solid rgb(163, 163, 163);
+    text-align: center;
+    border-radius: 4px; 
+    background-color: rgb(32, 32, 32);
+    color: rgb(163, 163, 163);
+    margin-top:10px;
+    width: 170px;
+    height: 25px;
+    cursor: pointer;
+}
+button:hover{
+    color: rgb(32, 32, 32);
+    background-color: white;
+
+}
+button:active{
+    color: white;
+    background-color: rgb(32, 32, 32);
+
+}
+div {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(163, 163, 163);
+    background-color:rgb(32, 32, 32);
+    padding: 30px; 
+    margin-top:10px;
+}
+
+.items{
+    border-radius: 5px;
+    text-align: center;
+    border: 4px solid rgb(85, 85, 85);
+    height: 500px;
+}
+.sum{
+    border-radius: 5px;
+    text-align:right;
+}
+
+table, td, th {
+    border: dashed 1px ;
+}
+.table{
+    overflow:hidden;
+    height:180px;
+    overflow-y:scroll;
+}
+  
+.center {
+    width: 50%;
+    margin-top:10px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+.table::-webkit-scrollbar {
+    width: 15px;  
+          
+}
+  
+.table::-webkit-scrollbar-track {
+    background: rgb(32, 32, 32);
+    border-radius: 20px;  
+    border: 3px solid rgb(163, 163, 163);
+  
+}
+  
+.table::-webkit-scrollbar-thumb {
+    background-color: rgb(163, 163, 163);    
+    border-radius: 20px;         
+}

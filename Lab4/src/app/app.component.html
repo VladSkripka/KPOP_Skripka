@@ -1,0 +1,25 @@
+    <div class = "outer">
+            <div class = "items"><label>Доброго дня!</label> <br>
+            <label>Введіть назву товару та ціну: </label> <br>
+            <input [(ngModel)]="item" placeholder="item"> <br> <input [(ngModel)]="price" placeholder="price"> <br>
+
+            <button (click)="AddToList(item, price)">Додати</button>
+            <div class="table"><table class="center">
+            <thead>
+                <th>Назва</th>
+                <th>Ціна</th>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of mylistItem">
+                    <td>{{item.item}}</td>
+                    <td>{{item.price}}</td>
+                </tr>
+            </tbody>
+            </table>
+            </div>
+            <div class="sum"><task1 [mylistItem]=mylistItem></task1><br>
+            ---------------------<br>
+                Сума без НДС
+            </div>
+            </div>
+    </div>
