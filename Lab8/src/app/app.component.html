@@ -1,0 +1,47 @@
+<div class="centerInp"><input type="text" [(ngModel)] = "link" placeholder="https://..."> </div>
+<div class="center"><p class = "errors">{{errorMsg}}</p></div>
+<div class="center"><button class="okBut" (click)="ngOnInit(); checkLink();">Ok</button></div>
+
+<div class="table">
+  <table class="center">
+  <thead>
+      <th>Ім'я</th>
+      <th>Email</th>
+      <th>Логін</th>
+      <th>Пароль</th>
+      <th>Телефон</th>
+  </thead>
+  <tbody>
+      <tr *ngFor="let users of myUsers">
+          <td>{{users.name}}</td>   
+          <td>{{users.email}}</td>       
+          <td>{{users.login}}</td>
+          <td>{{users.password}}</td>
+          <td>{{users.phone}}</td>
+          <td><button mat-raised-button class="okbut" (click) = "openDialog(users.id)">Детальніше</button></td>
+          
+      </tr>
+  </tbody>
+  </table>
+</div>
+<h1>Обране</h1>
+<div class="favtable">
+  <table class="center">
+  <thead>
+      <th>Ім'я</th>
+      <th>Email</th>
+      <th>Логін</th>
+      <th>Пароль</th>
+      <th>Телефон</th>
+  </thead>
+  <tbody>
+      <tr *ngFor="let users of favourites">
+          <td>{{users.name}}</td>   
+          <td>{{users.email}}</td>       
+          <td>{{users.login}}</td>
+          <td>{{users.password}}</td>
+          <td>{{users.phone}}</td> 
+      </tr>
+  </tbody>
+  </table>
+</div>

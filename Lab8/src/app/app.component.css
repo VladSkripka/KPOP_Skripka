@@ -1,0 +1,52 @@
+.center {
+    width: 70%;
+    margin-top:10px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header {
+    text-align: center;
+}
+.favtable {
+    margin-top:10px;
+    overflow:hidden;
+    height:20%;
+    overflow-y:scroll;
+    margin-bottom:10px;
+}
+.table {
+    overflow:hidden;
+    height:500px;
+    overflow-y:scroll;
+}
+table, td, th {
+    text-align: center;
+}
+div{
+    display: flex;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+input{
+    margin-left: auto;
+    margin-right: auto;
+}
+.okBut{
+    background-color: antiquewhite;
+    border-radius: 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.centerInp{
+    margin-top:10px;
+    margin-right: auto;
+
+}
+.errors{
+    margin-left: auto;
+    margin-right: auto;
+    color: red;
+}
